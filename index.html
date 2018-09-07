@@ -8,8 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="node_modules/normalize.css/normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-        crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans:400,700" rel="stylesheet">
     <!-- <script src="main.js"></script> -->
 </head>
 
@@ -40,23 +41,142 @@
             </div>
         </section>
         <section class="app-screen inbox">
-                <div class="menu">
-                        <div class="menu-wrapper">
-                        </div>
+            <div class="app-screen-header">
+                <div class="app-screen-phoneInfo">
+                    <p><i class="fas fa-signal"></i><i class="fas fa-wifi"></i></p>
+                    <p>9:41</p>
+                    <p><i class="fab fa-bluetooth-b"></i><i class="fas fa-battery-full"></i></p>
+                </div>
+                <div class="app-screen-appInfo">
+                    <p><i class="fas fa-chevron-left"></i></p>
+                    <p>Inbox</p>
+                    <p><i class="fas fa-search"></i></p>
+                </div>
+            </div>
+
+            <div class="app-screen-chats">
+                <div class="app-screen-notification">
+                    You have 2 unread messages
+                </div>
+                <div class="app-screen-chat">
+                    <img class="active" src="images/IronManAvatar59.png" alt="Iron man avatar">
+                    <div class="app-screen-chat-texts">
+                        <p class="app-screen-chat-name">Iron man</p>
+                        <p class="app-screen-chat-time">10:45am</p>
+                        <p class="app-screen-chat-message">Bro where were you last night? <br>text me when you see...</p>
                     </div>
+                </div>
+                <div class="app-screen-chat">
+                    <img class="active" src="images/CapiatinAvatar59.png" alt="Capitain America avatar">
+                    <div class="app-screen-chat-texts">
+                        <p class="app-screen-chat-name">Capitain America</p>
+                        <p class="app-screen-chat-time">09:20am</p>
+                        <p class="app-screen-chat-message">Hey dude! We could sure do with<br>some back up if...</p>
+                    </div>
+                </div>
+                <div class="app-screen-chat">
+                    <img src="images/HulkAvatar59.png" alt="Hulk avatar">
+                    <div class="app-screen-chat-texts">
+                        <p class="app-screen-chat-name">HULK</p>
+                        <p class="app-screen-chat-time">8:40am</p>
+                        <p class="app-screen-chat-message">HULK SMASH!!</p>
+                    </div>
+                </div>
+                <div class="app-screen-chat">
+                    <img src="images/WidowAvatar59.png" alt="Black Widow avatar">
+                    <div class="app-screen-chat-texts">
+                        <p class="app-screen-chat-name">Black Widow</p>
+                        <p class="app-screen-chat-time">yesterday</p>
+                        <p class="app-screen-chat-message">Are you ever gonna text me<br>back?</p>
+                    </div>
+                </div>
+                <div class="app-screen-chat">
+                    <img src="images/SpiderManAvatar59.png" alt="Spiderman avatar">
+                    <div class="app-screen-chat-texts">
+                        <p class="app-screen-chat-name">Spiderman</p>
+                        <p class="app-screen-chat-time">2 days ago</p>
+                        <p class="app-screen-chat-message">Did that really happen LMAO</p>
+                    </div>
+                </div>
+                <div class="app-screen-chat">
+                    <img src="images/AntManAvatar59.png" alt="Antman avatar">
+                    <div class="app-screen-chat-texts">
+                        <p class="app-screen-chat-name">Antman</p>
+                        <p class="app-screen-chat-time">4 days ago</p>
+                        <p class="app-screen-chat-message">Why does nobody ever send me...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="menu-wrapper">
+                </div>
+            </div>
         </section>
         <section class="app-screen chat">
-                <div class="menu">
-                        <div class="menu-wrapper">
-                        </div>
+            <div class="app-screen-header">
+                <div class="app-screen-phoneInfo">
+                    <p><i class="fas fa-signal"></i><i class="fas fa-wifi"></i></p>
+                    <p>9:41</p>
+                    <p><i class="fab fa-bluetooth-b"></i><i class="fas fa-battery-full"></i></p>
+                </div>
+                <div class="app-screen-appInfo left">
+                    <p><i class="fas fa-chevron-left"></i></p>
+                    <p class="center">Ironman<br><span>online</span></p>
+                </div>
+            </div>
+            <div class="openChat">
+                <div class="received messagebox">
+                    <p>Hey man, how are you keeping?</p>
+                </div>
+                <div class="received messagebox">
+                    <p>Trouble is brewing bro and we could do with your help? you free?</p>
+                </div>
+                <div class="senderInfo">
+                    <img class="avatar" src="images/IronManAvatar59.png" alt="Iron man avatar"> <p class="timeStamp">2:30pm</p>
+
+                </div>
+                <div class="sentMessagesbox">
+                    <div class="sent messagebox">
+                        <p>You Bro!</p>
                     </div>
+                    <div class="sent messagebox">
+                        <p>Yurt! Give me 15 minutes to get all my stuff ready?</p>
+                    </div>
+                    <div class="senderInfo outgoing">
+                        <p class="timeStamp">2:42pm</p> <img class="avatar" src="images/ThorAvatar59.png" alt="Thor avatar">
+                    </div>
+
+                </div>
+                <div class="senderInfo center">
+                    <p>today</p>
+                </div>
+                <div class="received messagebox">
+                    <p>Bro where were you last night? text me when you see this!</p>
+                </div>
+                <div class="senderInfo">
+                    <img class="avatar" src="images/IronManAvatar59.png" alt="Iron man avatar"> <p class="timeStamp">10:45am</p>
+                </div>
+                <div class="messageInput">
+                    <i class="fas fa-paperclip"></i>
+                    <p>
+                        Type your message...
+                    </p>
+                    <button class="sentButton"><i class="fab fa-telegram-plane"></i></button>
+                </div>
+            </div>
+
+            <div class="menu greenTheme">
+                <div class="menu-wrapper">
+                </div>
+            </div>
         </section>
     </main>
     <footer class="copyright">
         <p>
             Designed by <a href="https://dribbble.com/WillDoesUX">Will Morrissey</a>. Coded by <a href="https://github.com/ostyq">Veronika
                 Tolpeeva
-            </a>.
+            </a>
         </p>
     </footer>
 </body>
