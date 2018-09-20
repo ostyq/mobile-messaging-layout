@@ -7,6 +7,7 @@
   width: 342px;
   height: 736px;
   box-sizing: border-box;
+  position: relative;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -86,7 +87,7 @@ div.menu {
   height: 40px;
   align-self: center;
   position: absolute;
-  bottom: -12px;
+  bottom: 0;
   background: white;
   width: 342px;
   z-index: 1;
